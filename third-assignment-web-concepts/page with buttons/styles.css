@@ -1,0 +1,425 @@
+@import url('https://fonts.cdnfonts.com/css/konstant-grotesk');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+@font-family: 'Konstant Grotesk', 'Inter';
+                                                
+
+
+.header-nav{
+    /* width: 1560px; */
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+}
+
+.LinkedIn-icon{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    padding-top: 26px;
+    padding: 15px;
+}
+
+.nav-menu {
+    width: auto;
+    height: 38px;
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 21px;
+    padding-left: 330px;
+}
+
+.nav-menu li, a, .aboutus, .nav-contacts{
+    color: var(--website-button-oxford-blue, #000029);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    text-decoration: none;    
+}
+
+.important-link-c li, a{
+    color: #01A0FE !important;
+
+}
+
+
+.button-nav-prim{
+    display: inline-flex;
+    padding: 8px 100px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1000px;
+    background: var(--website-button-bluetiful, #0168FC);
+}
+
+.button-nav-prim:focus{
+    background: var(--website-button-bluetiful, #000029);
+}
+
+.main-container{
+    /* width: 1366px ; */
+    width: auto;
+    height: 1024px;
+}
+
+
+.blue-section{
+    display: flex;
+    /* width: 1520px; */
+    width: auto;
+    height: 150px;
+    padding: 232px 98.73px 232px 98px;
+    justify-content: center; 
+    align-items: center; 
+    gap: 109px;
+    flex-shrink: 0;
+
+    border-radius: 32px;
+    background: var(--website-frame-blue-jeans, #01A0FE);
+}
+
+.text-w{
+    display: flex;
+    width: 988px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.big-text{
+    width: 695px;
+    color: var(--website-headline-white, #FFF);
+    font-family: Konstant Grotesk;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 110% */
+    letter-spacing: -1px;
+    }
+
+.small-text{
+    color: var(--website-body-white, #FFF);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+}
+
+.picture img{
+    width: 600px;
+    height: 600px;
+}
+
+
+.white-section{
+    width: auto;
+    height: 712px;
+
+    border-radius: 32px;
+    background: var(--website-frame-cultured, red);
+
+    display: inline;
+    /* align-items: center; */
+}
+
+.text-b-b{
+    color: var(--website-headline-oxford-blue, #000029);
+    font-family: 'Konstant Grotesk';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 110% */
+    letter-spacing: -1px;
+    padding: 98px 98px;
+}
+
+.contact-box{
+    width: auto;
+    height: 150px;
+    flex-shrink: 0;
+    padding-left: 98px;
+    
+    /* padding-top: 195px; */
+    /* background-color: #0168FC; */
+
+    /* align-items: center;
+    text-align: center; */
+}
+
+.contact-box{
+    color: var(--website-body-independence, #2C2C44);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.contact-text{
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contact-box contact-mail{
+
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    margin-top: 16px;
+}
+
+.contact-icons{
+    display: inline-flex;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.linkedin-icon, .ig-icon{
+    border-radius: 1000px;
+    border: 1px solid var(--website-button-blue, #CBD7E8);    
+}
+
+.svg{
+    width: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.intresting-box{
+    width: auto;
+    height: 200px;
+    /* text-align: right; */
+    padding-top: 124px;  
+    
+} 
+
+.text-i{
+    color: var(--website-headline-oxford-blue, #000029);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+
+}
+
+.buttons-box{
+    display: inline-flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 496px;
+    height: 96px;
+}
+
+.up-buttons-box, .down-buttons-box{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* .standart-up-button, .down-buttons-box{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+} */
+
+.hovered-up-button, .standart-up-button{
+    display: flex;
+    width: 185px;
+    height: 40px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;   
+
+    gap: 16px;
+}
+
+.hovered-up-button button, .prim-button button{
+    color: var(--website-button-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+
+    border-radius: 1000px;
+    background: var(--website-button-bluetiful, #0168FC);    
+}
+
+.standart-up-button button, .down-buttons-box button, .sec-button button, .nav-active button, .nav-hovered-button button{
+    color: var(--website-button-oxford-blue, #000029);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+
+    border-radius: 1000px;
+    border: 1px solid var(--website-button-blue, #CBD7E8);
+}
+
+.nav-hovered-button button:hover{
+    background-color:#0168FC;
+    transition: 0.7s;
+}
+
+.hovered-up-button button:hover{
+    background-color:#000;
+    transition: 0.7s;
+}
+
+.nav-active button{
+    color: var(--website-button-oxford-blue, #000029);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+
+    border-radius: 1000px;
+    border: 1px solid var(--website-button-blue, #fff);
+}
+.nav-active button:active{
+    cursor: pointer;
+    color: var(--website-button-oxford-blue, #0168FC);
+}
+
+
+.down-buttons-box{
+    padding-left: 156px;
+}
+
+.input-box{
+    display: inline-flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 48px;
+}
+
+.input-lines{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    
+}
+
+.input-line1, .input-line2, .input-line3{
+    font-family: Inter;
+    
+    display: flex;
+    height: 54px;
+    width: 652px;
+    padding: 4px 4px 4px 24px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+
+/* flex-direction: column;
+align-items: flex-start; */
+
+    border-radius: 50px;
+    border: 1px solid var(--website-input-gainsboro, #D9D9D9);
+    background: var(--website-frame-white, #FFF);
+    
+} 
+
+.input-line2, .input-line1{
+    border: none;
+}
+
+
+
+/* input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  } */
+
+/* .input-line text{
+    
+} */
+
+.input-line input{
+    color: var(--website-input-grey, );
+    text-align: center; 
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+} 
+
+
+  
+.form-input {
+    font-family: Inter;
+    color: #01A0FE;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: none;
+    width: 90%;
+    display: block;
+    transition: 0.9s;
+}
+
+  
+
+.submit-button button{
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px gray;
+    margin-top: 60px;
+    display: inline-flex;
+    padding: 14px 24px 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 1000px;
+    background: var(--website-button-bluetiful, #0168FC);
+}
+
+.submit-button button:hover{
+    background-color: #2C2C44;
+}
+
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+a.nav-link:active{
+
+}
