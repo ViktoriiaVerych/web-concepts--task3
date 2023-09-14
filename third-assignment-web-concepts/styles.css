@@ -316,7 +316,7 @@
     
 }
 
-.input-line{
+.input-line1, .input-line2, .input-line3{
     display: flex;
     height: 54px;
     width: 652px;
@@ -332,7 +332,9 @@ align-items: flex-start; */
     border: 1px solid var(--website-input-gainsboro, #D9D9D9);
     background: var(--website-frame-white, #FFF);
     
-} */
+} 
+
+
 
 /* input[type=text] {
     background-color: white;
@@ -349,12 +351,41 @@ align-items: flex-start; */
 .input-line input{
     color: var(--website-input-grey, );
     text-align: center; 
-    font-family: Acme;
+    font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
 } 
+
+.form__label {
+    font-family: Inter;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0px);
+  }
+  
+  .form__input {
+    font-family: Inter;
+    color: #01A0FE;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: none;
+    width: 90%;
+    display: block;
+    transition: 0.9s;
+  }
+  
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-64px);
+    transform: translateY(-64px);
+  }
+  
 
 .submit-button button{
     color: white;
