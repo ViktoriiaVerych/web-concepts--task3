@@ -61,6 +61,10 @@
     background: var(--website-button-bluetiful, #0168FC);
 }
 
+.button-nav-prim:focus{
+    background: var(--website-button-bluetiful, #000029);
+}
+
 .main-container{
     /* width: 1366px ; */
     width: auto;
@@ -72,7 +76,7 @@
     display: flex;
     /* width: 1520px; */
     width: auto;
-    height: 584px;
+    height: 150px;
     padding: 232px 98.73px 232px 98px;
     justify-content: center; 
     align-items: center; 
