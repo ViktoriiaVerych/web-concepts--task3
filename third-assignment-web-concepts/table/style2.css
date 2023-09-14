@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/konstant-grotesk');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+@font-family: 'Konstant Grotesk', 'Inter';
+                                                
+
+
+body {
+    font-family: Konstant Grotesk, Inter;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    color: #4e4e4e;
+}
+
+th {
+    background-color: #ae00ff;
+}
+
+tr:nth-child(even) {
+    background-color: #8000bc7b;
+}
+
+tr:hover {
+    background-color: #8000bc;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+button {
+    background-color: #ae00ff;
+    font-family: Konstant Grotesk;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #7f007f;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ae00ff;
+}
+
+.table-container {
+    max-height: 220px;
+    overflow-y: auto;
+}
+
