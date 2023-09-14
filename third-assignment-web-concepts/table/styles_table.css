@@ -33,13 +33,15 @@ table {
 
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
     font-family: Inter;
+    
+
 }
 
 thead {
     background-color: #45264d;
-    color: #fff;
+    color: #fff;    
 }
 
 tr:hover {
@@ -54,4 +56,11 @@ th, td {
 .table-container {
     max-height: 220px;
     overflow-y: auto;
+}
+
+
+.svg-icon{
+    width: 30px;
+    height: auto;
+    padding-left: 100px;
 }
